@@ -18,7 +18,7 @@
             color: #ffe3ee; /* Set navbar text color to pink */
          }
          .accordion .card {
-            background-color: #1a2b56; /* Set accordion background color to navy */
+            background-color: #ffe3ee; /* Set accordion background color to navy */
          }
          .accordion .card-header {
             background-color: #1a2b56; /* Set accordion header background color to navy */
@@ -27,6 +27,12 @@
          .accordion .card-body {
             color: #1a2b56; /* Set accordion body text color to pink */
          }
+	.accordion .card-header.collapsed {
+		background-color: #ffe3ee; /* Set collapsed accordion header background color to navy */
+	}
+	.accordion .card-header:not(.collapsed) {
+		background-color: #1a2b56; /* Set expanded accordion header background color to pink */
+	}
       </style>
       <link rel="icon" href="format/logo3.png" type="image/png"> 
    </head>
