@@ -6,6 +6,10 @@ body .container-sm {
     padding-left: 0;
     padding-right: 0;
 }
+.container-sm {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 #accordion-style {
     color: #1a2b56;
     background-color:#fff1f6;
