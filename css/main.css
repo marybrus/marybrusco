@@ -1,8 +1,7 @@
 body {
     background-color: #ffe3ee; /* Baby pink background */
     color: #1a2b56; /* Navy text color */
-    padding-left: 3px;
-    padding-right: 3px;
+    padding: 0px 24px;
 }
 body .container-sm {
     padding-left: 0;
