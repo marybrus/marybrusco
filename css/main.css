@@ -1,6 +1,8 @@
 body {
     background-color: #ffe3ee; /* Baby pink background */
     color: #1a2b56; /* Navy text color */
+    padding-left: 0;
+    padding-right: 0;
 }
 #accordion-style {
     color: #1a2b56;
