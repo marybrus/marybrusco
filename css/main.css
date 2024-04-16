@@ -59,3 +59,8 @@ footer {
     height: 100%;
     z-index: -1; /* Ensure the picture is behind other content */
 }
+.left {
+    text-align: left;
+    margin-top: 5%;
+}
+
